@@ -1,0 +1,107 @@
+0000.067 (R) [notice] Looking for db archive: file name: backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-db.gz
+0000.068 (R) [notice] Archive is expected to be size: 439.3 KB: OK
+0000.071 (R) [notice] Looking for plugins archive: file name: backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-plugins.zip
+0000.073 (R) [notice] Archive is expected to be size: 23704 KB: OK
+0000.074 (R) [notice] Looking for themes archive: file name: backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-themes.zip
+0000.075 (R) [notice] Archive is expected to be size: 36878 KB: OK
+0000.076 (R) [notice] Looking for uploads archive: file name: backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-uploads.zip
+0000.078 (R) [notice] Archive is expected to be size: 323026.3 KB: OK
+0000.080 (R) [notice] Looking for others archive: file name: backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-others.zip
+0000.082 (R) [notice] Archive is expected to be size: 1538.5 KB: OK
+0000.083 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.090 (R) [notice] Unpacking backup... (backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-db.gz, 0.4 Mb)
+0000.097 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.206 (R) [notice] Enabling Maintenance mode&#8230;
+0000.238 (R) [notice] Backup of: https://www.alaindigitalportfolio.dev.cc
+0000.241 (R) [notice] Content URL: https://www.alaindigitalportfolio.dev.cc/wp-content
+0000.242 (R) [notice] Uploads URL: https://www.alaindigitalportfolio.dev.cc/wp-content/uploads
+0000.242 (R) [notice] Old table prefix: wp_
+0000.243 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.243 (R) [notice] Site information: multisite = 0
+0000.247 (R) [notice] Site information: sql_mode = NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.252 (R) [notice] New table prefix: ew_
+0000.266 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: ew_options
+0000.442 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.458 (R) [notice] Atomic restore: renaming new table (ew_options) to final table name (wp_options)
+0000.498 (R) [notice] Elegant themes theme builder plugin data detected: resetting temporary folder
+0000.510 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: ew_users
+0000.546 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.561 (R) [notice] Atomic restore: renaming new table (ew_users) to final table name (wp_users)
+0000.577 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: ew_usermeta
+0000.611 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.624 (R) [notice] Atomic restore: renaming new table (ew_usermeta) to final table name (wp_usermeta)
+0000.637 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: ew_commentmeta
+0000.666 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.679 (R) [notice] Atomic restore: renaming new table (ew_commentmeta) to final table name (wp_commentmeta)
+0000.692 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: ew_comments
+0000.723 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.736 (R) [notice] Atomic restore: renaming new table (ew_comments) to final table name (wp_comments)
+0000.749 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: ew_links
+0000.772 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.785 (R) [notice] Atomic restore: renaming new table (ew_links) to final table name (wp_links)
+0000.798 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: ew_postmeta
+0001.131 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0001.172 (R) [notice] Atomic restore: renaming new table (ew_postmeta) to final table name (wp_postmeta)
+0001.188 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: ew_posts
+0001.697 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0001.713 (R) [notice] Atomic restore: renaming new table (ew_posts) to final table name (wp_posts)
+0001.728 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: ew_term_relationships
+0001.801 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0001.819 (R) [notice] Atomic restore: renaming new table (ew_term_relationships) to final table name (wp_term_relationships)
+0001.847 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: ew_term_taxonomy
+0001.900 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0001.915 (R) [notice] Atomic restore: renaming new table (ew_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.930 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: ew_termmeta
+0001.958 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0001.970 (R) [notice] Atomic restore: renaming new table (ew_termmeta) to final table name (wp_termmeta)
+0001.983 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: ew_terms
+0002.015 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0002.039 (R) [notice] Atomic restore: renaming new table (ew_terms) to final table name (wp_terms)
+0002.054 (R) [notice] Processing table (InnoDB):  wp_e_events - will restore as: ew_e_events
+0002.138 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0002.181 (R) [notice] Atomic restore: renaming new table (ew_e_events) to final table name (wp_e_events)
+0002.201 (R) [notice] Processing table (InnoDB):  wp_e_submissions - will restore as: ew_e_submissions
+0002.312 (R) [notice] Database queries processed: 50 in 2.21 seconds
+0002.316 (R) [notice] Atomic restore: dropping original table (wp_e_submissions)
+0002.392 (R) [notice] Atomic restore: renaming new table (ew_e_submissions) to final table name (wp_e_submissions)
+0002.431 (R) [notice] Processing table (InnoDB):  wp_e_submissions_actions_log - will restore as: ew_e_submissions_actions_log
+0002.472 (R) [notice] Atomic restore: dropping original table (wp_e_submissions_actions_log)
+0002.515 (R) [notice] Atomic restore: renaming new table (ew_e_submissions_actions_log) to final table name (wp_e_submissions_actions_log)
+0002.532 (R) [notice] Processing table (InnoDB):  wp_e_submissions_values - will restore as: ew_e_submissions_values
+0002.555 (R) [notice] Atomic restore: dropping original table (wp_e_submissions_values)
+0002.568 (R) [notice] Atomic restore: renaming new table (ew_e_submissions_values) to final table name (wp_e_submissions_values)
+0002.581 (R) [notice] Processing table (InnoDB):  wp_wppusher_packages - will restore as: ew_wppusher_packages
+0002.694 (R) [notice] Disabling Maintenance mode&#8230;
+0002.695 (R) [notice] Atomic restore: dropping original table (wp_wppusher_packages)
+0002.708 (R) [notice] Atomic restore: renaming new table (ew_wppusher_packages) to final table name (wp_wppusher_packages)
+0002.723 (R) [notice] Finished: lines processed: 58 in 2.62 seconds
+0002.724 (R) [notice] Cleaning up rubbish...
+0002.725 (R) [notice] This option was not selected.
+0002.786 (R) [notice] Unpacking backup... (backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-plugins.zip, 23.1 MB)
+0004.327 (R) [notice] Unzip progress: 1002 out of 4418 files (5.4 MB, plugins/elementor/assets/images/app/site-editor/products.svg)
+0006.336 (R) [notice] Unzip progress: 2003 out of 4418 files (40.5 MB, plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/magnific-popup/magnific-popup.css)
+0008.288 (R) [notice] Unzip progress: 3004 out of 4418 files (59.6 MB, plugins/updraftplus/changelog-old.txt)
+0010.007 (R) [notice] Unzip progress: 4005 out of 4418 files (82 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/NetworkUrlError.php)
+0010.698 (R) [notice] Unzip progress: 4418 out of 4418 files (83.7 MB, plugins/wppusher/wppusher.php)
+0010.704 (R) [notice] Moving old data out of the way...
+0012.860 (R) [notice] Moving unpacked backup into place...
+0014.682 (R) [notice] Cleaning up rubbish...
+0014.697 (R) [notice] Unpacking backup... (backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-themes.zip, 36 MB)
+0016.388 (R) [notice] Unzip progress: 1002 out of 2315 files (26.6 MB, themes/Divi/includes/builder/module/settings/migration/RowZeroGutter.php)
+0018.153 (R) [notice] Unzip progress: 2003 out of 2315 files (58.5 MB, themes/twentytwenty/inc/template-tags.php)
+0018.924 (R) [notice] Unzip progress: 2315 out of 2315 files (71.9 MB, themes/twentytwentytwo/theme.json)
+0018.931 (R) [notice] Moving old data out of the way...
+0019.530 (R) [notice] Moving unpacked backup into place...
+0020.447 (R) [notice] Cleaning up rubbish...
+0020.473 (R) [notice] Unpacking backup... (backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-uploads.zip, 315.5 MB)
+0021.793 (R) [notice] Unzip progress: 230 out of 1254 files (100 MB, uploads/2023/11/Artboard-1@3x-1-980x1386.png)
+0022.905 (R) [notice] Unzip progress: 587 out of 1254 files (200.3 MB, uploads/2023/11/FINAL-Infographic-Poster-1-1080x1523.png)
+0024.803 (R) [notice] Unzip progress: 1178 out of 1254 files (300.5 MB, uploads/2023/11/Untitled_design-removebg-preview.png)
+0025.015 (R) [notice] Unzip progress: 1254 out of 1254 files (315.9 MB, uploads/2023/12/updraftplus.1.23.13.zip)
+0025.021 (R) [notice] Moving old data out of the way...
+0025.393 (R) [notice] Moving unpacked backup into place...
+0025.770 (R) [notice] Cleaning up rubbish...
+0025.794 (R) [notice] Unpacking backup... (backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-others.zip, 1.5 MB)
+0026.067 (R) [notice] Unzip progress: 166 out of 166 files (6 MB, languages/themes/twentytwentytwo-en_GB.po)
+0026.082 (R) [notice] Cleaning up rubbish...
+0026.168 (R) [notice] Restore successful!

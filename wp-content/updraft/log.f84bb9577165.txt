@@ -1,0 +1,142 @@
+0000.032 () Opened log file at time: Tue, 05 Dec 2023 14:42:20 +0000 on https://www.alaindigitalportfolio.dev.cc
+0000.034 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.1 PHP: 7.3.1 (apache2handler, Windows NT AP-LAPTOP 10.0 build 19045 (Windows 10) i586) MySQL: 10.1.37-MariaDB (max packet size=67108864) WPLANG: en_GB Server: Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.8M | 8M) multisite: N openssl: OpenSSL 1.1.1a  20 Nov 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.034 () Free space on disk containing Updraft's temporary directory: 81570.2 MB
+0000.093 () Restore setup, now closing connection and starting restore over AJAX.
+0000.021 () Opened log file at time: Tue, 05 Dec 2023 14:42:22 +0000 on https://www.alaindigitalportfolio.dev.cc
+0000.023 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.13 WP: 6.4.1 PHP: 7.3.1 (apache2handler, Windows NT AP-LAPTOP 10.0 build 19045 (Windows 10) i586) MySQL: 10.1.37-MariaDB (max packet size=67108864) WPLANG: en_GB Server: Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 52.9M | 4M) multisite: N openssl: OpenSSL 1.1.1a  20 Nov 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.023 () Free space on disk containing Updraft's temporary directory: 81570.2 MB
+0000.052 () Ensuring WP_Filesystem is setup for a restore
+0000.052 () WP_Filesystem is setup and ready for a restore
+0000.066 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events","wp_e_submissions","wp_e_submissions_actions_log","wp_e_submissions_values","wp_wppusher_packages"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.083 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.089 () Entity: db
+0000.089 () restore_backup(backup_file=backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-db.gz, type=db, info=a:0:{}, last_one=)
+0000.090 () Unpacking backup... (backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-db.gz, 0.4 Mb)
+0000.094 () Database successfully unpacked
+0000.097 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.098 () Using direct MySQL access; value of use_mysqli is: 1
+0000.099 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.206 () Max packet size: 64 MB
+0000.206 () Entering maintenance mode
+0000.206 () Enabling Maintenance mode&#8230;
+0000.237 () Backup of: https://www.alaindigitalportfolio.dev.cc
+0000.241 () Content URL: https://www.alaindigitalportfolio.dev.cc/wp-content
+0000.242 () Uploads URL: https://www.alaindigitalportfolio.dev.cc/wp-content/uploads
+0000.243 () Old table prefix: wp_
+0000.243 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.247 () Site information: multisite=0
+0000.248 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.252 () New table prefix: ew_
+0000.266 () Processing table (InnoDB): wp_options - will restore as: ew_options
+0000.442 () Atomic restore: dropping original table (wp_options)
+0000.458 () Atomic restore: renaming new table (ew_options) to final table name (wp_options)
+0000.472 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.498 () Elegant themes theme builder plugin data detected: resetting temporary folder
+0000.510 () Processing table (InnoDB): wp_users - will restore as: ew_users
+0000.546 () Atomic restore: dropping original table (wp_users)
+0000.561 () Atomic restore: renaming new table (ew_users) to final table name (wp_users)
+0000.577 () Processing table (InnoDB): wp_usermeta - will restore as: ew_usermeta
+0000.611 () Atomic restore: dropping original table (wp_usermeta)
+0000.624 () Atomic restore: renaming new table (ew_usermeta) to final table name (wp_usermeta)
+0000.636 () Processing table (InnoDB): wp_commentmeta - will restore as: ew_commentmeta
+0000.665 () Atomic restore: dropping original table (wp_commentmeta)
+0000.679 () Atomic restore: renaming new table (ew_commentmeta) to final table name (wp_commentmeta)
+0000.692 () Processing table (InnoDB): wp_comments - will restore as: ew_comments
+0000.723 () Atomic restore: dropping original table (wp_comments)
+0000.736 () Atomic restore: renaming new table (ew_comments) to final table name (wp_comments)
+0000.749 () Processing table (InnoDB): wp_links - will restore as: ew_links
+0000.772 () Atomic restore: dropping original table (wp_links)
+0000.784 () Atomic restore: renaming new table (ew_links) to final table name (wp_links)
+0000.798 () Processing table (InnoDB): wp_postmeta - will restore as: ew_postmeta
+0001.131 () Atomic restore: dropping original table (wp_postmeta)
+0001.172 () Atomic restore: renaming new table (ew_postmeta) to final table name (wp_postmeta)
+0001.188 () Processing table (InnoDB): wp_posts - will restore as: ew_posts
+0001.697 () Atomic restore: dropping original table (wp_posts)
+0001.713 () Atomic restore: renaming new table (ew_posts) to final table name (wp_posts)
+0001.728 () Processing table (InnoDB): wp_term_relationships - will restore as: ew_term_relationships
+0001.801 () Atomic restore: dropping original table (wp_term_relationships)
+0001.819 () Atomic restore: renaming new table (ew_term_relationships) to final table name (wp_term_relationships)
+0001.847 () Processing table (InnoDB): wp_term_taxonomy - will restore as: ew_term_taxonomy
+0001.899 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.915 () Atomic restore: renaming new table (ew_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.930 () Processing table (InnoDB): wp_termmeta - will restore as: ew_termmeta
+0001.958 () Atomic restore: dropping original table (wp_termmeta)
+0001.970 () Atomic restore: renaming new table (ew_termmeta) to final table name (wp_termmeta)
+0001.982 () Processing table (InnoDB): wp_terms - will restore as: ew_terms
+0002.015 () Atomic restore: dropping original table (wp_terms)
+0002.038 () Atomic restore: renaming new table (ew_terms) to final table name (wp_terms)
+0002.054 () Processing table (InnoDB): wp_e_events - will restore as: ew_e_events
+0002.138 () Atomic restore: dropping original table (wp_e_events)
+0002.181 () Atomic restore: renaming new table (ew_e_events) to final table name (wp_e_events)
+0002.201 () Processing table (InnoDB): wp_e_submissions - will restore as: ew_e_submissions
+0002.312 () Database queries processed: 50 in 2.21 seconds
+0002.316 () Atomic restore: dropping original table (wp_e_submissions)
+0002.392 () Atomic restore: renaming new table (ew_e_submissions) to final table name (wp_e_submissions)
+0002.431 () Processing table (InnoDB): wp_e_submissions_actions_log - will restore as: ew_e_submissions_actions_log
+0002.472 () Atomic restore: dropping original table (wp_e_submissions_actions_log)
+0002.515 () Atomic restore: renaming new table (ew_e_submissions_actions_log) to final table name (wp_e_submissions_actions_log)
+0002.532 () Processing table (InnoDB): wp_e_submissions_values - will restore as: ew_e_submissions_values
+0002.555 () Atomic restore: dropping original table (wp_e_submissions_values)
+0002.568 () Atomic restore: renaming new table (ew_e_submissions_values) to final table name (wp_e_submissions_values)
+0002.581 () Processing table (InnoDB): wp_wppusher_packages - will restore as: ew_wppusher_packages
+0002.693 () Unlocking database and leaving maintenance mode
+0002.694 () Disabling Maintenance mode&#8230;
+0002.695 () Atomic restore: dropping original table (wp_wppusher_packages)
+0002.708 () Atomic restore: renaming new table (ew_wppusher_packages) to final table name (wp_wppusher_packages)
+0002.723 () Finished: lines processed: 58 in 2.62 seconds
+0002.724 () Cleaning up rubbish...
+0002.725 () Begin search and replace (updraftplus_restored_db)
+0002.725 () [Database-replace-site-url] Database: search and replace site URL
+0002.725 () This option was not selected.
+0002.785 () Entity: plugins
+0002.786 () restore_backup(backup_file=backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:96:"C:\DesktopServer Root Folder\Alain Portfolio\www.alaindigitalportfolio.dev.cc/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0002.786 () Unpacking backup... (backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-plugins.zip, 23.1 MB)
+0002.791 () Unzipping backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-plugins.zip to C:/DesktopServer Root Folder/Alain Portfolio/www.alaindigitalportfolio.dev.cc/wp-content/upgrade/cfcb5fa1/ using UpdraftPlus_ZipArchive, starting index 0
+0004.328 () Unzip progress: 1002 out of 4418 files (5.4 MB, plugins/elementor/assets/images/app/site-editor/products.svg)
+0006.336 () Unzip progress: 2003 out of 4418 files (40.5 MB, plugins/essential-addons-for-elementor-lite/assets/front-end/css/lib-view/magnific-popup/magnific-popup.css)
+0008.289 () Unzip progress: 3004 out of 4418 files (59.6 MB, plugins/updraftplus/changelog-old.txt)
+0010.007 () Unzip progress: 4005 out of 4418 files (82 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/NetworkUrlError.php)
+0010.698 () Unzip progress: 4418 out of 4418 files (83.7 MB, plugins/wppusher/wppusher.php)
+0010.703 () Moving old data: filesystem method / updraft_dir is potentially possible
+0010.704 () Moving old data: can potentially use wp_filesystem method / -old
+0010.704 () Moving old data out of the way...
+0012.842 () Top-level entities being moved: DesktopServer-master, elementor, index.php, shapely-companion, simply-static, updraftplus, wppusher
+0012.860 () Moving unpacked backup into place...
+0014.655 () Top-level entities being moved: akismet, DesktopServer-master, display-php-version, elementor, essential-addons-for-elementor-lite, index.php, php-compatibility-checker, shapely-companion, simply-static, updraftplus, wppusher
+0014.682 () Cleaning up rubbish...
+0014.696 () Entity: themes
+0014.696 () restore_backup(backup_file=backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-themes.zip, type=themes, info=a:3:{s:4:"path";s:95:"C:\DesktopServer Root Folder\Alain Portfolio\www.alaindigitalportfolio.dev.cc/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0014.697 () Unpacking backup... (backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-themes.zip, 36 MB)
+0014.699 () Unzipping backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-themes.zip to C:/DesktopServer Root Folder/Alain Portfolio/www.alaindigitalportfolio.dev.cc/wp-content/upgrade/fdaa7f98/ using UpdraftPlus_ZipArchive, starting index 0
+0016.388 () Unzip progress: 1002 out of 2315 files (26.6 MB, themes/Divi/includes/builder/module/settings/migration/RowZeroGutter.php)
+0018.153 () Unzip progress: 2003 out of 2315 files (58.5 MB, themes/twentytwenty/inc/template-tags.php)
+0018.924 () Unzip progress: 2315 out of 2315 files (71.9 MB, themes/twentytwentytwo/theme.json)
+0018.929 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.931 () Moving old data: can potentially use wp_filesystem method / -old
+0018.931 () Moving old data out of the way...
+0019.525 () Top-level entities being moved: Divi, index.php
+0019.530 () Moving unpacked backup into place...
+0020.416 () Top-level entities being moved: Divi, index.php, leverage, shapely, twentynineteen, twentyseventeen, twentysixteen, twentytwenty, twentytwentyfour, twentytwentythree, twentytwentytwo
+0020.447 () Cleaning up rubbish...
+0020.471 () Entity: uploads
+0020.471 () restore_backup(backup_file=backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:96:"C:\DesktopServer Root Folder\Alain Portfolio\www.alaindigitalportfolio.dev.cc/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0020.472 () Unpacking backup... (backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-uploads.zip, 315.5 MB)
+0020.475 () Unzipping backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-uploads.zip to C:/DesktopServer Root Folder/Alain Portfolio/www.alaindigitalportfolio.dev.cc/wp-content/upgrade/c70ed2a5/ using UpdraftPlus_ZipArchive, starting index 0
+0021.793 () Unzip progress: 230 out of 1254 files (100 MB, uploads/2023/11/Artboard-1@3x-1-980x1386.png)
+0022.905 () Unzip progress: 587 out of 1254 files (200.3 MB, uploads/2023/11/FINAL-Infographic-Poster-1-1080x1523.png)
+0024.803 () Unzip progress: 1178 out of 1254 files (300.5 MB, uploads/2023/11/Untitled_design-removebg-preview.png)
+0025.016 () Unzip progress: 1254 out of 1254 files (315.9 MB, uploads/2023/12/updraftplus.1.23.13.zip)
+0025.020 () Moving old data: filesystem method / updraft_dir is potentially possible
+0025.021 () Moving old data: can potentially use wp_filesystem method / -old
+0025.021 () Moving old data out of the way...
+0025.393 () Moving unpacked backup into place...
+0025.770 () Cleaning up rubbish...
+0025.793 () Entity: others
+0025.794 () restore_backup(backup_file=backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-others.zip, type=others, info=a:2:{s:4:"path";s:88:"C:\DesktopServer Root Folder\Alain Portfolio\www.alaindigitalportfolio.dev.cc/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0025.794 () Unpacking backup... (backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-others.zip, 1.5 MB)
+0025.796 () Unzipping backup_2023-12-05-1546_Alain_Digital_Portfolio_b480efc510a7-others.zip to C:/DesktopServer Root Folder/Alain Portfolio/www.alaindigitalportfolio.dev.cc/wp-content/upgrade/b4db1e6f/ using UpdraftPlus_ZipArchive, starting index 0
+0026.067 () Unzip progress: 166 out of 166 files (6 MB, languages/themes/twentytwentytwo-en_GB.po)
+0026.082 () Cleaning up rubbish...
+0026.146 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0026.168 () Restore successful!
+0026.168 () Restore successful
